@@ -25,6 +25,7 @@ const addNote = function (title, body) {
   
 }
 
+//removing note
 const removeNote = function (title, body) {
     const notes = loadNotes()
     const notesToKeep = notes.filter(function (note) {
